@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
+  margin-top: 8px;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.netflixLogo1{
+  visibility: hidden;
+}
+
+.context{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+
+.language{
+  font-weight: bolder;
+  margin-top: 22px;
+  padding-right: 8px;
+  display: inline-flex;
+  box-sizing: content-box;
+  border: solid 1px #5e5e5e;
+  border-radius: 3px;
+  margin-bottom: 62px;
+}
+
+/* language symbol */
+.fa-solid{
+  margin-top: 10px;
+  padding-left: 34px;
+  padding-right: 5px;
+  margin-bottom: 65px;
+  box-sizing: content-box;
+  padding-left: 5px;
+  color: white;
+}
+#lang-select{
+  padding-left: 3px;
+  padding-right: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 30px;
+  background-color: white;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.signInButton{
+  margin-top: 22px;
+  margin-left: 10px;
+  box-sizing: content-box;
+  width: 3rem;
+  height: 1.5rem;
+  padding: 4px 16px;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  border: solid 1px black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero{
+  /* display: flex; */
+  height: 95vh;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-attachment: fixed;
+  top: 0;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0)), linear-gradient(to left, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0)),linear-gradient(to top, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0)),linear-gradient(to right, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0)), url("hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heroContent{
+  color: white;
+  display: flex;
+  height: 35rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.heroContentMain{
+  font-size: 3.5rem;
+  font-weight: 900;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.heroContentSubheading{
+  margin-top: 9px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 20em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.heroContentBottomLine{
+  font-size: 1rem;
+  font-weight: 500;
+  width: 40em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.verificationArea{
+  display: flex;
+}
+.mailBar{
+  width: 25em;
+  height: 3em;
+  background-color: transparent;
+  border: #5e5e5e solid 1px;
+  border-radius: 5px;
+  margin-right: 5px;
+  color: #b7b7b7;
+  padding-left: 5px;
+  font-size: 20px;
+}
+.mailBarButton{
+  border: none;
+  width: 12em;
+  height: 3em;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.trendingNowHead{
+  width: 99.6%;
+  border-radius: 50%;
+  border-top: 5px solid #e40a16; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  width: 100%;
+}
